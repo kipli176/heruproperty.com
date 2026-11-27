@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title desc">
+  <title id="title">Heru Property</title>
+  <desc id="desc">Simbol rumah dan pin lokasi Heru Property</desc>
+  <style>
+    :root { --ink:#06395f; --green:#35a900; --red:#e20e16; --pin-hole:#fff; }
+    @media (prefers-color-scheme:dark) {
+      :root { --ink:#f2f7fa; --green:#72d43b; --red:#ff4d50; --pin-hole:#10242d; }
+    }
+  </style>
+  <path d="M22 73 80 22l58 51" fill="none" stroke="var(--ink)" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M34 68v67h92V68" fill="none" stroke="var(--ink)" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M80 51c-18 0-32 14-32 32 0 23 32 55 32 55s32-32 32-55c0-18-14-32-32-32Z" fill="var(--red)"/>
+  <circle cx="80" cy="82" r="12" fill="var(--pin-hole)"/>
+  <path d="M24 146h112" fill="none" stroke="var(--green)" stroke-width="8" stroke-linecap="round"/>
+</svg>

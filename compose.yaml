@@ -1,0 +1,16 @@
+services:
+  heruproperty:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: heruproperty
+    environment:
+      TZ: Asia/Jakarta
+    networks:
+      - cloudflared
+    restart: unless-stopped
+
+networks:
+  cloudflared:
+    external: true
+    name: cloudflared

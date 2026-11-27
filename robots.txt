@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /appscript/
+
+Sitemap: https://heruproperty.com/sitemap.xml
